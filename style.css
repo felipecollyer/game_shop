@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* font-family: 'Bungee', cursive;
+font-family: 'Roboto', sans-serif; */
+
+/* cabecalho */
+
+header h1,
+nav li a,
+section h2,
+form button {
+  font-family: "Bungee", cursive;
+}
+
+header {
+  background-color: #182c61;
+  padding: 16px 0px;
+  color: #ecf0f1;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1,
+section h2 {
+  font-weight: normal;
+}
+
+header nav {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 18px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* section */
+
+section {
+  padding: 24px 0;
+}
+section .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+section h2 {
+  color: #182c61;
+  margin-bottom: 15px;
+}
+
+section .container .imagem {
+  margin-right: 20px;
+}
+
+.container .brands {
+  display: flex;
+  gap: 10px;
+}
+.brands img,
+.logo-imagens img {
+  height: 24px;
+}
+
+#contato .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .sub-section h3,
+form {
+  margin-top: 16px;
+}
+
+form,
+.-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo-imagens {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+input,
+button,
+textarea {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+form button {
+  background-color: #182c61;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #354f95;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #182c61;
+}
+
+footer {
+  background-color: #182c61;
+  padding: 16px 0px;
+  color: #ecf0f1;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+}
